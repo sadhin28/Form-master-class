@@ -8,7 +8,7 @@ function App() {
   return (
      <div>
         {/* <Simple_form></Simple_form> */}
-        <StatefullForm></StatefullForm>
+         <StatefullForm></StatefullForm>
      </div>
   )
 }
