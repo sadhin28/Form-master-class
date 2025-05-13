@@ -12,8 +12,7 @@ const GrandPa = () => {
             <h1 className="mb-10 font-black text-3xl text-center">GrandPapa</h1>
            
             <assetContext.Provider value="gold">
-                 <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-3 justify-center">
-         
+            <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-3 justify-center">
              <Dad asset={asset}></Dad>
              <Uncle asset={asset}></Uncle>
              <Anti></Anti>

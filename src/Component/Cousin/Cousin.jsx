@@ -1,6 +1,9 @@
+
 import SpecialPerson from "../SpecialPerson/SpecialPerson";
 
+
 const Cousin = ({name,asset}) => {
+   
     return (
         <div className="">
             
@@ -9,6 +12,8 @@ const Cousin = ({name,asset}) => {
                 {
                     asset && <SpecialPerson asset={asset}></SpecialPerson>
                 }
+                
+                
             </section>
        </div>
     );
