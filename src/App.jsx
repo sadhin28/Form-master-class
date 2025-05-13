@@ -1,10 +1,10 @@
 import './App.css'
-import Anti from './Component/Anti/Anti'
-import Dad from './Component/Dad/Dad'
+
+import GrandPa from './Component/GrandPa/GrandPa'
 import RefForm from './Component/RefForm/RefForm'
 import Simple_form from './Component/Simple_form/Simple_form'
 import StatefullForm from './Component/StatefullForm/StatefullForm'
-import Uncle from './Component/Uncle/Uncle'
+
 import HookForm from './Custom-hooks-form/HookForm'
 
 function App() {
@@ -16,9 +16,7 @@ function App() {
          {/* <StatefullForm></StatefullForm> */}
          {/* <RefForm></RefForm> */}
          {/* <HookForm></HookForm> */}
-         <Dad></Dad>
-         <Uncle></Uncle>
-         <Anti></Anti>
+         <GrandPa></GrandPa>
      </div>
   )
 }
