@@ -11,6 +11,7 @@ const GrandPa = () => {
     return (
         <div className=" border-2 m-3 p-10 rounded-2xl">
             <h1 className="mb-10 font-black text-3xl text-center">GrandPapa</h1>
+            <p className="text-center mb-5 font-black">Net Money: {money}</p>
            <MoneyContext.Provider value={[money,setmoney]}>
               <assetContext.Provider value="gold">
             <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-3 justify-center">
