@@ -2,7 +2,7 @@ import React from 'react';
 
 const Dad = () => {
     return (
-        <div>
+        <div className='border border-amber-500 rounded-2xl p-2'>
             <h1>Father</h1>
         </div>
     );

@@ -8,8 +8,8 @@ const GrandPa = () => {
             <h1 className="mb-10">GrandPapa</h1>
             <div className="flex gap-3">
          
-            <Dad></Dad>
-            <Uncle></Uncle>
+             <Dad></Dad>
+             <Uncle></Uncle>
              <Anti></Anti>
             </div>
         </div>

@@ -1,7 +1,7 @@
 
 const Anti = () => {
     return (
-        <div>
+        <div  className="border border-amber-500 rounded-2xl p-2">
             <h1>Anti</h1>
         </div>
     );
